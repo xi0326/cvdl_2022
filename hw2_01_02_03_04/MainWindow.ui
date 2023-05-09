@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>417</width>
+    <height>1202</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>2022 CvDl Hw2</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBackgroundSubtraction">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>240</y>
+      <width>341</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>1. Background Subtraction</string>
+    </property>
+    <widget class="QPushButton" name="pushButtonBackgroundSubtraction">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>40</y>
+       <width>281</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1. Background Subtraction</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButtonLoadVideo">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>20</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Video</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonLoadImage">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>80</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Image</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonLoadFolder">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>140</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Folder</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupOpticalFlow">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>430</y>
+      <width>341</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>2. Optical Flow</string>
+    </property>
+    <widget class="QPushButton" name="pushButtonPreprocessing">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>40</y>
+       <width>281</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2.1 Preprocessing</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonVideoTracking">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>130</y>
+       <width>281</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2.2 Video Tracking</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupPerspectiveTransform">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>700</y>
+      <width>341</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>3. Perspective Transform</string>
+    </property>
+    <widget class="QPushButton" name="pushButtonPerspectiveTransform">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>40</y>
+       <width>281</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>3.1 Perspective Transform</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupPCA">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>910</y>
+      <width>341</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>4.1 PCA</string>
+    </property>
+    <widget class="QPushButton" name="pushButtonImageReconstruction">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>40</y>
+       <width>281</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>4.1 Image Reconstruction</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonComputeTheReconstructionError">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>130</y>
+       <width>281</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>4.2 Compute the reconstruction error</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
